@@ -1,6 +1,11 @@
 {
-  "name": "qa-automation",
+  "name": "datadash-qa",
   "version": "1.0.0",
+  "description": "Automated QA with Playwright",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
   "dependencies": {
     "playwright": "^1.42.0"
   }
